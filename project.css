@@ -1,0 +1,66 @@
+/* Background and Font*/
+body {
+    background: linear-gradient(to bottom right, #5c755a, #bfc78c);
+    font-family: arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 25px;
+    background-color: #19270d;
+    color: #bfc78c;
+}
+/* Navigation Bar */
+nav ul{
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #3d2607;
+}
+nav ul li {
+    margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #bfc78c; /* Text color */
+    padding: 10px 15px; /* Padding for clickable area */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    display: block; /* Make the link fill the li */
+}
+nav ul li a:hover {
+    background-color: #bfc78c;
+    color: #3d2607; /* Ensure text remains readable */
+}
+
+/* Main Sections */
+main section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+main section h2 {
+    color: #3d2607;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 15px;
+    background-color: #3d2607;
+    color: #bfc78c;
+    margin-top: 40px;
+}
