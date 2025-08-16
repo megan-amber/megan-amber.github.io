@@ -33,7 +33,7 @@ nav ul li a {
     text-decoration: none; /* Remove underline */
     color: #bfc78c; /* Text color */
     padding: 10px 15px; /* Padding for clickable area */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
     display: block; /* Make the link fill the li */
 }
 nav ul li a:hover {
@@ -50,9 +50,49 @@ main section {
     border: 1px solid #cccccc;
     border-radius: 8px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+main section:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
 }
 main section h2 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.5em;
     color: #3d2607;
+    text-align: center;
+    background-color: #c5caa7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+main section p {
+    text-align: center;
+    color: #3d2607;
+}
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3d2607;
+    margin-bottom: 10px;
+}
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #3d2607;
+    padding: 12px;
+    text-align: center;;
+}
+tbody td {
+    color: #3d2607;
+}
+thead, tfoot {
+    background-color: #3d2607;
+    color: #bfc78c;
 }
 
 /* Footer Styling */
