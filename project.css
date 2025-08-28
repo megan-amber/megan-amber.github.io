@@ -181,7 +181,7 @@ footer {
 }
 @media screen and (min-width: 1025px) {
     .main-flex {
-        flex-direction: row; /* Arrange sections side by side on larger screens */
+        flex-direction: column; /* Arrange sections side by side on larger screens */
         flex-wrap: wrap; /* Allow wrapping to next line if space is limited */
         justify-content: center;
     }
